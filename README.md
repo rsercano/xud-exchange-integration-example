@@ -1,4 +1,4 @@
-### How to run
+## How to run
 
 Clone this repository then update `xud` submodule
 
@@ -27,7 +27,7 @@ virtualenv -p python3 --no-site-packages venv
 Active your installed virtual environment. You can deactive it by just typing `deactive` later.
 
 ```bash
-venv/bin/active
+source venv/bin/active
 ```
 
 Install python dependencies
@@ -52,4 +52,12 @@ python engine.py
 ```
 
 You can type `help` for more helps in the running example.
+
+
+### Two exchanges example
+
+```bash
+python engine.py banner1.txt localhost 8886 tls1.txt
+python engine.py banner2.txt localhost 9886 tls2.txt
+```
 
