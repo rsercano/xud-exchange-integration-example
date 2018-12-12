@@ -1,8 +1,9 @@
 ## How to run
 
-Clone this repository then update `xud` submodule
+Clone this repository then init & update `xud` submodule
 
 ```bash
+git submodule init
 git submodule update
 ```
 
@@ -27,7 +28,7 @@ virtualenv -p python3 --no-site-packages venv
 Active your installed virtual environment. You can deactive it by just typing `deactive` later.
 
 ```bash
-source venv/bin/active
+source venv/bin/activate
 ```
 
 Install python dependencies
