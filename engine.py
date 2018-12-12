@@ -145,7 +145,7 @@ def run():
 
 if __name__ == '__main__':
     print_banner(sys.argv[1])
-    host = sys.argv[2]
-    port = sys.argv[3]
-    cert = sys.argv[4]
+    context.host = sys.argv[2]
+    context.port = sys.argv[3]
+    context.cert = sys.argv[4]
     run()
